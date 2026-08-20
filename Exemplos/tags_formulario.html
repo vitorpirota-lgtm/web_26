@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+
+<h1>Exemplos de Formularios</h1>
+
+<!-- O metodo deve ser post -->
+<form action="" method="get">
+<!--  Exemplo 1 de um label e input  -->
+    <label>
+        Nome:
+<!--     O name deve começar com form_   -->
+    <input name="form_nome" type="text" placeholder="Ex: Vitor" required
+    </label>
+    <br>
+
+<!--  Exemplo 2 de um label e input  -->
+    <label for="input2">Sobrenome:</label>
+    <br>
+    <input id="input2" name="sobrenome" type="text" placeholder="Ex: Silva" required
+
+
+    <br>
+    <br>
+
+    <label>
+        Idade:
+        <input name="form_idade" type="number">
+    </label>
+
+    <br>
+    <br>
+
+    <label>
+        Data de Nascimento:
+        <input name="form_data_nascimento" type="date">
+    </label>
+    <br>
+    <br>
+
+    <label>
+        Senha:
+        <input name="form_senha" type="password">
+    </label>
+    <br>
+
+    <label>Qual o ano atual do seu Ensino Médio </label>
+    <br>
+
+    <!--  No input radio os names devem                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                              ser iguais  -->
+
+    <label>
+        <input name="form_em" value="1" type="radio">
+        1 EM
+    </label>
+    <br>
+
+    <label>
+        <input name="form_em" value="1" type="radio">
+        2 EM
+    </label>
+    <br>
+
+    <label>
+        <input name="form_em" value="1" type="radio">
+        3 EM
+    </label>
+    <br>
+    <br>
+
+    <label>Qual a sua carteira de motorista?</label>
+    <br>
+    <label>
+        <input name="form_carro" type="checkbox">
+        Carro
+    </label>
+    <br>
+    <label>
+    <input name="form_moto" type="checkbox">
+        Moto
+    </label>
+
+    <br>
+    <br>
+
+    <label>
+        Comentário:
+        <textarea name="form_comentario" rows="10" cols="50"></textarea>
+    </label>
+
+    <br>
+    <br>
+    <label>
+        Cidade:
+        <select name="form_cidade">
+            <option value="guararapes">Guararapes</option>
+            <option value="Valparaiso">Valparaíso</option>
+            <option value="Aracatuba">Araçatuba</option>
+        </select>
+    </label>
+
+
+
+    <br>
+    <br>
+
+<!--  Sempre vai ser submit para salvar  -->
+    <button type="submit">Salvar</button>
+    <button type="reset">Limpar</button>
+></form>
+
+</body>
+</html>

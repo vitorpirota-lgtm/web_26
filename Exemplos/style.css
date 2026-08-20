@@ -1,0 +1,27 @@
+body {
+    background: brown;
+}
+
+h1 {
+    color: aliceblue;
+    background: bisque;
+    text-align: center;
+    font-family: "Arial Narrow";
+}
+
+/* hover é quando o mouse passa por cima */
+n1:hover {
+    color: whitesmoke;}
+/* o '.' chama a class*/
+.atividade{
+    color: brown;
+    text-align: left;
+    background: moccasin;
+}
+
+a{
+    text-decoration: moccasin;
+    font-size: 24px;
+    font-weight: bold;
+    text-shadow: moccasin  1px 1px;
+}

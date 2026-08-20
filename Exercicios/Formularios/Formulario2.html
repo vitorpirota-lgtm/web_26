@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+
+<h1> Comprar produto</h1>
+
+<!-- O metodo deve ser post -->
+<form action="" method="get">
+<!--  Exemplo 1 de um label e input  -->
+
+    <label>
+        Nome do Produto:
+    <input name="form_produto" type="text" placeholder="Ex: Colher" required
+    </label>
+    <br>
+    <br>
+
+  <label>
+       Descrição:
+      <textarea name="form_descricao" rows="10" cols="50" required></textarea>
+    </label>
+    <br>
+    <br>
+
+  <label>
+        Categoria:
+    <select name="form_categoria" required>
+            <option value="eletronico">Eletrônico</option>
+            <option value="livros">Livros</option>
+            <option value="brinquedos">Brinquedos</option>
+            <option value="esportes">Esportes</option>
+            <option value="calcados">Calçados</option>
+        </select>
+    <br>
+    <br>
+
+  <label>
+        País de fabricação:
+    <select name="form_pais" required>
+            <option value="franca">França</option>
+            <option value="espanha">Espanha</option>
+            <option value="brasil">Brasil</option>
+            <option value="eslovenia">Eslovênia</option>
+            <option value="colombia">Colômbia</option>
+        </select>
+
+    </label>
+  <br>
+  <br>
+
+      <label>
+        Preço:
+        <input name="form_preco" type="number" required>
+      </label>
+      <br>
+      <br>
+
+      <label>
+        Data de Fabricação:
+        <input name="form_data_fabricacao" type="date" required>
+    </label>
+
+<button type="submit">Enviar</button>
+    <button type="reset">Redefinir</button>
+
+
+
+
+</body>
+</html>

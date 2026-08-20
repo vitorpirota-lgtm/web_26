@@ -1,0 +1,23 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.nome {
+    width: 100%;
+    height: 100vh;
+    background: black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.sobrenome {
+    background: red;
+    width: 100px;
+    height: 100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
