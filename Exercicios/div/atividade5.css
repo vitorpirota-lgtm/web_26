@@ -34,11 +34,13 @@
 .data-decor {
      width: 150px;
     height: 100px;
-    background: blue;
+   background-image: url("https://tse3.mm.bing.net/th/id/OIP.jI-DGZJHMswm-XOR-j1QjgHaEK?r=0&rs=1&pid=ImgDetMain&o=7&rm=3");
+    background-size: cover;
+    background-repeat: no-repeat;
     text-align: center;
     display: flex;
     justify-content:center;
-    color: black;
+    color: powderblue;
     align-items: center;
     margin: 10px;
 }
@@ -46,22 +48,26 @@
 .menu {
      width: 150px;
     height: 100px;
-    background: whitesmoke;
+    background-image: url("https://tse4.mm.bing.net/th/id/OIP.44POlHaRTx1vZhIbVKjZpQHaE5?r=0&rs=1&pid=ImgDetMain&o=7&rm=3");
+    background-size: cover;
+    background-repeat: no-repeat;
     text-align: center;
     display: flex;
     justify-content:center;
-    color: black;
+    color: powderblue;
     align-items: center;
     margin: 10px;
 }
 .caption-number {
     width: 150px;
     height: 100px;
-    background: green;
     text-align: center;
     display: flex;
     justify-content: center;
-    color: black;
+    color: powderblue;
     align-items: center;
     margin: 10px;
+    background-image: url("https://i.pinimg.com/originals/cf/35/6b/cf356b30c2190683ef28c5f265294a52.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
 }
